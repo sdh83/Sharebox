@@ -1,0 +1,53 @@
+#navbar {
+	background-color: #8A2BE2;
+	color: white;
+	font-family: sans-serif;
+	vertical-align: top;
+	font-size: 400%;
+	width: 100%;
+	text-align: center;
+	
+}
+
+input[type=file], input[type=submit] {
+	background-color: #8A2BE2;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	font-size: 100%;
+	display: inline;
+	border-radius: 8px;
+	width: inherit;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+form {
+	text-align: center;
+}
+
+#welcome {
+	width: 100%;
+	font-size: 200%;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+iframe {
+	width: 100%;
+	font-family: sans-serif;
+	border: none;
+	font-size: 100%;
+	position: bottom;
+	overflow: scroll;
+	text-align: center;
+}
+
+body,html {
+	background-color: #F0F0F0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
