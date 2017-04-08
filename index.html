@@ -17,8 +17,8 @@ Sharebox
 Download and share files for free!
 <br></br>
 </div>
-<form action="/upload.php">
-  <input type="file" name="pic" accept="image/*">
+<form action="upload.php" enctype="multipart/form-data" method="post">
+  <input type="file" name="pic">
   <input type="submit">
 </form>
 <br>
